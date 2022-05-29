@@ -21,8 +21,16 @@
     - PR 제목 템플릿
 
     ```
-    [별명] 포스팅 제목
-    ex) [크리스] Chapter 1 자바를 시작하기 전에
+    * 등록
+    add Chapter명 md files
+    ex) add Chapter 1 자바를 시작하기 전에 md file
+
+    add Chapter명 img files
+    ex) add Chapter 1 자바를 시작하기 전에 img files
+  
+    * 수정
+    modify Chapter명 md files
+    ex) modify Chapter 1 자바를 시작하기 전에 md file
     ```
 
     ### **제목 규칙**
