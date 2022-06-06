@@ -21,8 +21,16 @@
     - PR 제목 템플릿
 
     ```
-    [별명] 포스팅 제목
-    ex) [크리스] Chapter 1 자바를 시작하기 전에
+    * 등록
+    add Chapter명 md files
+    ex) add Chapter 1 자바를 시작하기 전에 md file
+
+    add Chapter명 img files
+    ex) add Chapter 1 자바를 시작하기 전에 img files
+  
+    * 수정
+    modify Chapter명 md files
+    ex) modify Chapter 1 자바를 시작하기 전에 md file
     ```
 
     ### **제목 규칙**
@@ -30,7 +38,7 @@
     - `년도-월-일-제목.md` 형식으로 파일명을 작성해 주세요.
         - ex) [2022-05-24-chapter1.md](http://2022-05-24-chapter1.md/)
     - 이미지는 따로 이미지 폴더를 만들어 저장해주세요.
-        - ex) 폴더 경로 chater1/images/~
+        - ex) 폴더 경로 chater0*/images/~
     
     ### **발표 방식**
     - 작성하신 자료를 토대로 **30분 내외**로 발표를 진행합니다.
@@ -42,18 +50,18 @@
 ### 스터디 시간표
 |주차|진행일|진행사항|담당자|진행여부|
 |:---:|:---:|:---|:---:|:---:|
-|1주차|2022-06-01|Chapter 1 자바를 시작하기 전에<br/>Chapter 2 변수(Variable)<br/>Chapter 3 연산자(Operator)||
-|||Chapter 4 조건문과 반복문<br/>Chapter 5 배열(Array)||
-|2주차|2022-06-08|Chapter 6 객체지향 프로그래밍 I||
-|||Chapter 7 객체지향 프로그래밍 II||
-|3주차|2022-06-15|Chapter 8 예외처리(Exception Handling)<br/>Chapter 9 java.lang패키지와 유용한 클래스||
-|||Chapter 10 날짜와 시간 & 형식화||
-|4주차|2022-06-22|Chapter 11 컬렉션 프레임웍||
-|||Chapter 12 제네릭스, 열거형, 애너테이션||
-|5주차|2022-06-29|Chapter 13 쓰레드(Thread)||
-|||Chapter 14 람다와 스트림||
-|6주차|2022-07-06|Chapter 15 입출력(I/O)||
-|||Chapter 16 네트워킹(Networking)||
+|1주차|2022-06-01|Chapter 1 자바를 시작하기 전에<br/>Chapter 2 변수(Variable)<br/>Chapter 3 연산자(Operator)|Chris|
+|||Chapter 4 조건문과 반복문<br/>Chapter 5 배열(Array)|freshmanbo|
+|2주차|2022-06-08|Chapter 6 객체지향 프로그래밍 I|두유|
+|||Chapter 7 객체지향 프로그래밍 II|또띠|
+|3주차|2022-06-15|Chapter 8 예외처리(Exception Handling)<br/>Chapter 9 java.lang패키지와 유용한 클래스|홍|
+|||Chapter 10 날짜와 시간 & 형식화|freshmanbo|
+|4주차|2022-06-22|Chapter 11 컬렉션 프레임웍|또띠|
+|||Chapter 12 제네릭스, 열거형, 애너테이션|두유|
+|5주차|2022-06-29|Chapter 13 쓰레드(Thread)|J|
+|||Chapter 14 람다와 스트림|홍|
+|6주차|2022-07-06|Chapter 15 입출력(I/O)|J|
+|||Chapter 16 네트워킹(Networking)|Chris|
 
 
 *** 
