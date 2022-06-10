@@ -75,6 +75,7 @@
     > 명시적인 예외 처리를 강제하지 않기 때문에 Uncheked Exception이라고 한다.<br/>
     > 명시적인 예외 처리란 try ~ catch로 예외를 잡거나 throw로 호출한<br/>
     > 메소드에게 예외를 던지지 않는 행위를 말한다.
+
   **즉, Exception을 불필요하게 남발하지 말고 상황에 맞게 잘 판단 하여 Exception처리를 하자.**
 
   **!Tip3.** [unchecked Exception와 checked Exception에 대하여](https://steady-coding.tistory.com/583)
@@ -85,6 +86,7 @@
   > 반드시 실행은 되어야 하는 코드이지만 예외 처리하는 코드를 작성하여 사용자가 알수 있도록 하는 문
   > *finally블록 사용 시점*
   >   - 자원이나 DB에 커넥션 한 경우, 파일 닫기, 연결 닫기 등과 같은 **"정리 코드"를 넣는데 사용**
+
   - try/catch문 문법
   > ```java
   > try {
@@ -254,11 +256,13 @@
   >     }
   >   }
   >   ```
+
   - 그 외 Exception
   > 사용자의 실수와 같은 외적인 요인에 의해 발생하는 예외<br/>
   > Exception 클래스에 속하는 자식 클래스들은 치명적인 예외 상황을 발생시키므로, 반드시<br/>
   > try/catch문을 사용하여 예외 처리를 해야한다.<br/>
   > *여기서 예외처리를 반드시 해야하는 경우는 checked Exception이라 부른다.*
+
   - checked Exception 부가 설명
     > 명시적인 예외 처리를 강제하기 때문에 Checked Exception이라 한다.<br/>
     > 반드시 try ~ catch로 예외를 잡거나 throw로 호출한 메소드에게 예외를 던져야 한다.
@@ -317,6 +321,7 @@
   </table>
   
   <br/>🌟 중요 : [Checked Exception과 Unchecked Exception 차이점](https://steady-coding.tistory.com/583) <br/>
+
    <br/>☑️ throw와 throws의 차이점? <br/> 
    >  - throw : 예외를 일부러 발생 시키기 위해 사용 - 본인이 예외를 발생시킴
    >    - 느낌 🤔 : *내가 어떻게든 해결해야해!*<br/>
@@ -332,6 +337,7 @@
    >        // 작성 내용
    >      }
    >    ```
+
    - 예외 방식1 (throw Exception)
    ```java
    public class TestException {
@@ -342,6 +348,7 @@
                 System.out.println("호출된 메소드 -> 예외가 처리");
             }
         }
+
         public static void main(String[] args) {
             try {
                 handlingException();
@@ -426,6 +433,7 @@
   
   public class TestException {
     public static void Main(String[] args) {
+
       try {
 	        fis = new FileInputStream("scroe.dat");
           dis = new DataInputStream(fis);
@@ -448,6 +456,7 @@
   
   public class TestException {
     public static void Main(String[] args) {
+
       try(
         fis = new FileInputStream("score.dat");
         dis = new DataInputStream(fis)
@@ -480,10 +489,12 @@
    >    	- 매개 변수가 없는 기본 생성자
    >    	- 예외 발생원인(예외 메시지)을 전달하기 위해 String 타입의 매개변수를 갖는 생성자
    >    - 예외 메시지의 용도는 catch{} 블록의 예외처리 코드에서 이용하기 위해서
+
    - 사용자 정의 예외 객체
    > 	- 기본 라이브러리(API)에서 제공하는 예외 객체 외 개발자가 선언해서 사용하는 예외 객체
    > 	- Exception클래스 또는 Exception의 자식클래스를 반드시 상속받아야함
    > 	- 일반적으로 Exception에서 선언된 형태의 생성자 외에는 다른 멤버를 가지지 않음
+
    - 커스텀 예외 예시
    ```java
 	public class ReservedException extends RuntimeException {     
@@ -491,8 +502,10 @@
 	    super(msg);    
 	 }     
 	}
+
 	public class JoinMember {         
 	   String[] reserved = {"admin", "tester", "member"};         
+
 	   public void regId(String userId) {        
 		// userId가 reserved에 있는 값과 일치 하면 안됨        
 		for(String name : reserved) {            
@@ -508,6 +521,7 @@
 		 }    
 	   }
 	}
+
 	public class Main { // 임의의 예외처리 만들기     
 	   public static void main(String[] args) {        
 		JoinMember join = new JoinMember();        
@@ -566,6 +580,7 @@
   // 먼저 customException를 생성한 후에, intiCause()로 Exception를 customException의
   // 원인 예외로 등록한 뒤 'throw'로 이 예외를 던진다.
   ```
+
   
 ## 참고 문서 / 블로그
 1. [서적] 남궁성님의 Java의 정석 3rd Edition
@@ -577,3 +592,4 @@
 7. [블로그] [고코딩님의 throw, throws와 Exception Handle(예외처리) 개념 및 설명](https://go-coding.tistory.com/10)
 8. [블로그] [Libi님의 try-with-resources:자원을 할당하는 방법](https://sorjfkrh5078.tistory.com/103)
 9. [블로그] [Yskin's님의 Throw 예외처리, 커스텀 예외처](https://qdgbjsdnb.tistory.com/33)
+
