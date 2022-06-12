@@ -50,10 +50,10 @@
 ### 스터디 시간표
 |주차|진행일|진행사항|담당자|진행여부|
 |:---:|:---:|:---|:---:|:---:|
-|1주차|2022-06-01|Chapter 1 자바를 시작하기 전에<br/>Chapter 2 변수(Variable)<br/>Chapter 3 연산자(Operator)|Chris|
-|||Chapter 4 조건문과 반복문<br/>Chapter 5 배열(Array)|freshmanbo|
-|2주차|2022-06-08|Chapter 6 객체지향 프로그래밍 I|두유|
-|||Chapter 7 객체지향 프로그래밍 II|또띠|
+|1주차|2022-06-01|Chapter 1 자바를 시작하기 전에<br/>Chapter 2 변수(Variable)<br/>Chapter 3 연산자(Operator)|Chris|✔️|
+|||Chapter 4 조건문과 반복문<br/>Chapter 5 배열(Array)|freshmanbo|✔️|
+|2주차|2022-06-08|Chapter 6 객체지향 프로그래밍 I|두유|✔️|
+|||Chapter 7 객체지향 프로그래밍 II|또띠|✔️|
 |3주차|2022-06-15|Chapter 8 예외처리(Exception Handling)<br/>Chapter 9 java.lang패키지와 유용한 클래스|홍|
 |||Chapter 10 날짜와 시간 & 형식화|freshmanbo|
 |4주차|2022-06-22|Chapter 11 컬렉션 프레임웍|또띠|
