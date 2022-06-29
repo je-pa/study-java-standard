@@ -48,20 +48,20 @@
 ## 1. 스터디 시간표
 
 ### 스터디 시간표
-|주차|진행일|진행사항|담당자|진행여부|
-|:---:|:---:|:---|:---:|:---:|
-|1주차|2022-06-01|Chapter 1 자바를 시작하기 전에<br/>Chapter 2 변수(Variable)<br/>Chapter 3 연산자(Operator)|Chris|✔️|
-|||Chapter 4 조건문과 반복문<br/>Chapter 5 배열(Array)|freshmanbo|✔️|
-|2주차|2022-06-08|Chapter 6 객체지향 프로그래밍 I|두유|✔️|
-|||Chapter 7 객체지향 프로그래밍 II|또띠|✔️|
-|3주차|2022-06-15|Chapter 8 예외처리(Exception Handling)<br/>Chapter 9 java.lang패키지와 유용한 클래스|홍|✔️|
-|||Chapter 10 날짜와 시간 & 형식화|freshmanbo|✔️|
-|4주차|2022-06-22|Chapter 11 컬렉션 프레임웍|또띠|✔️|
-|||Chapter 12 제네릭스, 열거형, 애너테이션|두유|✔️|
-|5주차|2022-06-29|Chapter 13 쓰레드(Thread)|J|
-|||Chapter 14 람다와 스트림|홍|
-|6주차|2022-07-06|Chapter 15 입출력(I/O)|J|
-|||Chapter 16 네트워킹(Networking)|Chris|
+| 주차  |    진행일     |진행사항|담당자|진행여부|
+|:---:|:----------:|:---|:---:|:---:|
+| 1주차 | 2022-06-01 |Chapter 1 자바를 시작하기 전에<br/>Chapter 2 변수(Variable)<br/>Chapter 3 연산자(Operator)|Chris|✔️|
+|     |            |Chapter 4 조건문과 반복문<br/>Chapter 5 배열(Array)|freshmanbo|✔️|
+| 2주차 | 2022-06-08 |Chapter 6 객체지향 프로그래밍 I|두유|✔️|
+|     |            |   Chapter 7 객체지향 프로그래밍 II   |     또띠     |✔️|
+| 3주차 | 2022-06-15 |Chapter 8 예외처리(Exception Handling)<br/>Chapter 9 java.lang패키지와 유용한 클래스|홍|✔️|
+|     |            |   Chapter 10 날짜와 시간 & 형식화   | freshmanbo |✔️|
+| 4주차 | 2022-06-22 |Chapter 11 컬렉션 프레임웍|또띠|✔️|
+ |     |            | Chapter 12 제네릭스, 열거형, 애너테이션 |     두유     |✔️|
+| 5주차 | 2022-06-29 |Chapter 13 쓰레드(Thread)|J|✔️|
+|     |            |     Chapter 14 람다와 스트림      |     홍      |✔️|
+| 6주차 | 2022-07-06 |Chapter 15 입출력(I/O)|J|
+|     |            | Chapter 16 네트워킹(Networking) |   Chris    |
 
 
 *** 
@@ -69,6 +69,7 @@
 ### 팀원 정보
 <table>
     <tr>
+        <td></td>
         <td align="center">
             <a href="https://github.com/itsChrisJang"><img  width="100px" src="https://avatars.githubusercontent.com/u/62946867?v=4" /></a>
         </td>
@@ -89,6 +90,7 @@
         </td>
     </tr>
     <tr>
+        <td align="center">name</td>
         <td align="center">Chris</td>
         <td align="center">J</td>
         <td align="center">freshmanbo</td>
@@ -97,7 +99,62 @@
         <td align="center">두유</td>
     </tr>
     <tr>
+        <td align="center">*</td>
         <td align="center">Leader</td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center">1</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+    </tr>
+    <tr>
+        <td align="center">3</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+    </tr>
+    <tr>
+        <td align="center">4</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+    </tr>
+    <tr>
+        <td align="center">5</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+        <td align="center">✔</td>
+    </tr>
+    <tr>
+        <td align="center">6</td>
+        <td align="center"></td>
         <td align="center"></td>
         <td align="center"></td>
         <td align="center"></td>
