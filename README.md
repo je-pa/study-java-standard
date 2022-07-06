@@ -154,12 +154,12 @@
     </tr>
     <tr>
         <td align="center">6</td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
+        <td align="center">✔️</td>
+        <td align="center">✔️</td>
+        <td align="center">✔️</td>
+        <td align="center">✔️</td>
+        <td align="center">✔️</td>
+        <td align="center">✔️</td>
     </tr>
 </table>
 
