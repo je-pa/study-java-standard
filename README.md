@@ -60,8 +60,8 @@
  |     |            | Chapter 12 제네릭스, 열거형, 애너테이션 |     두유     |✔️|
 | 5주차 | 2022-06-29 |Chapter 13 쓰레드(Thread)|J|✔️|
 |     |            |     Chapter 14 람다와 스트림      |     홍      |✔️|
-| 6주차 | 2022-07-06 |Chapter 15 입출력(I/O)|J|
-|     |            | Chapter 16 네트워킹(Networking) |   Chris    |
+| 6주차 | 2022-07-06 |Chapter 15 입출력(I/O)|J|✔️|
+|     |            | Chapter 16 네트워킹(Networking) |   Chris    |✔️|
 
 
 *** 
